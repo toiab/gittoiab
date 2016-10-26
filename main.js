@@ -16,8 +16,13 @@ if (n > 10 ) {
 	console.log (n)
 }
 
-var cikl;
-for (cikl = 0; cikl < 100000; cikl++) {
-	cikl*=2;
-	console.log(cikl);
+i = 10;
+
+var func = function () {
+	var i = 5;
+	console.log(i);
 }
+
+func();
+
+console.log(i);
